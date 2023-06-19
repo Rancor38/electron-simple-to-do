@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
-    <link href="./styles.css" rel="stylesheet">
-    <title>Hello World!</title>
+    <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <title>Simple-To-Do</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+    <h1 id="title" class="main-title">To-do</h1>
+  <div class="menu">
+    <button class="dwnld-btn">Download Tasks</button>
+    <button class="upld-btn">Upload Tasks</button>
+    <button class="plain-txt">Download Plain-Text</button>
+  </div>
+    <div class="form">
+    <input class="new-task" placeholder="New Task Here">
+    <button class="new-task-btn">Add Task</button>
+  </div>
+<ul>
+</ul>
 
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>

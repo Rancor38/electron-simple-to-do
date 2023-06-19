@@ -1,0 +1,6 @@
+{
+  "mac": {
+    "target": "dmg",
+    "icon": "path/to/icon.icns"
+  }
+}

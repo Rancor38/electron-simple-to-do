@@ -1,3 +1,15 @@
+//Add squirrel script
+if (require('electron-squirrel-startup')) app.quit();
+
+//Add live reload
+// const electron = require('electron');
+
+// // Enable live reload for Electron too
+// require('electron-reload')(__dirname, {
+//     // Note that the path to electron may vary according to the main file
+//     electron: require(`${__dirname}/node_modules/electron`)
+// });
+
 // Modules to control application life and create native browser window
 const { app, BrowserWindow } = require('electron')
 const path = require('path')
