@@ -1,6 +1,9 @@
 {
-  "mac": {
-    "target": "dmg",
-    "icon": "build/icon.icns"
-  }
+        "mac": {
+                "target": "dmg",
+                "icon": "build/icon.icns"
+        },
+        "win": {
+                "icon": "path/to/your/icon.ico"
+        }
 }
